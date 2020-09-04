@@ -1,3 +1,21 @@
+# Steps Taken
+- `npx create-nx-workspace@latest`
+  - I chose to build an angular app called www using scss and free Nx Cloud:
+- `yarn global add @capacitor/cli`
+- `yarn add @capacitor/cli --dev` // YES you want it globally and local to the workspace
+- Open VS Code at the root of your new monorepo
+- `ionic init --multi-app`
+- Using Nx Console
+  - Generate a new Angular application called mobile
+- `cd apps/mobile`
+- `npx cap init`
+- Add a `package.json` with the just the name of the app in apps/mobile
+- `ionic init`
+- `cd ../../`
+- `ionic cap add ios`
+- Then I added a fake app in `angular.json` to create serve command I can trigger through Nx Console
+- Then I added the same fake app to `nx.json` so it doesn't complain about the apps not matching
+
 # IonicCapacitorNxMonorepo
 
 This project was generated using [Nx](https://nx.dev).
@@ -21,7 +39,8 @@ Nx supports many plugins which add capabilities for developing different types o
 These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
 
 Below are our core plugins:
-
+- [Capacitor](https://capacitorjs.com)
+  - `yarn global add @capacitor/cli`
 - [Angular](https://angular.io)
   - `ng add @nrwl/angular`
 - [React](https://reactjs.org)

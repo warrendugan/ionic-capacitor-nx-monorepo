@@ -1,0 +1,13 @@
+{
+  "appId": "com.BusinessName.app",
+  "appName": "com.BusinessName.app",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "../../dist/apps/mobile",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
