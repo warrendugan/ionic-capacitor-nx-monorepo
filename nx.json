@@ -38,6 +38,9 @@
     "mobile-e2e": {
       "tags": [],
       "implicitDependencies": ["mobile"]
+    },
+    "mobile-ios": {
+      "tags": []
     }
   }
 }
