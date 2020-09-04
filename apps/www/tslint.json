@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "ionicCapacitorNxMonorepo",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "ionic-capacitor-nx-monorepo",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
