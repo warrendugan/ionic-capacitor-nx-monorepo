@@ -2,8 +2,8 @@
 - `npx create-nx-workspace@latest`
   - I chose to build an angular app called www using scss and free Nx Cloud:
 - `yarn global add @capacitor/cli`
-- `yarn add @capacitor/cli --dev` // YES you want it globally and local to the workspace
 - Open VS Code at the root of your new monorepo
+- `yarn add @capacitor/cli --dev` // YES you want it globally and local to the workspace
 - `ionic init --multi-app`
 - Using Nx Console
   - Generate a new Angular application called mobile
